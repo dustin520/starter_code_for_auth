@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<% users.forEach(function(user) { %>
+		<%= user.dataValues.username %> <!-- dataValues is a sqlize thing -->
+	<% }) %>
+
+</body>
+</html>

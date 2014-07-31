@@ -16,7 +16,7 @@ function Post(sequelize, DataTypes){
         }
     },
     {
-      classMethods: {
+      classMethods: { // classMethods is a req keyword, not taco - same as static methods
         associate: function(db){
           Post.belongsTo(db.user);
         }

@@ -15,3 +15,7 @@ Assuming we've gone through something like  the `helpful_notes.md` we can focus 
     * `comparePass`
     * `createNewUser`
     * `authorize`
+
+
+QUESTIONS - 
+req.query vs req.params 
